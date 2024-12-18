@@ -19,30 +19,3 @@ elif a.isnumeric()==True or b.isnumeric()==True:
             print(a-1)
 else:
     print('Это невозможно')
-
-
-
-'''if a.isnumeric()==True or b.isnumeric()==True:
-    a = float(a); b = float(b)
-    if type(a)==float and type(b)==float:
-        a = int(a);b = int(b)
-        if a<b and a!=b:
-            while a<b and a!=b-1:
-                a+=1
-                print(int(a))
-        elif b<a and b!=a:
-            while b<a and b!=a-1:
-                b+=1
-                print(int(b))
-    elif type(a)==str or type(b)==str:
-        a = int(a);b = int(b)
-        if a<b and a!=b:
-            while a<b and a!=b-1:
-                a+=1
-                print(int(a))
-        elif b<a and b!=a:
-            while b<a and b!=a-1:
-                b+=1
-                print(int(b))
-else:
-    print("Целые числа отсутствуют")'''
